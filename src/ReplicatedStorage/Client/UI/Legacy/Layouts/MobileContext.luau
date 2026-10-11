@@ -1,0 +1,303 @@
+--!strict
+--[[
+	GENERATED v2 from ServerStorage._Authoring.LegacyUI.MobileContext in the legacy place: static structure only.
+	Every property that differs from what Fusion's New would build is written out.
+	Lines marked "legacy behaviour" name the LocalScript that used to drive that element.
+]]
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+
+local Fusion = require(ReplicatedStorage.Shared.Packages.Fusion)
+
+local Children = Fusion.Children
+
+type Scope = Fusion.Scope<typeof(Fusion)>
+
+return function(scope: Scope): ScreenGui
+	return scope:New("ScreenGui")({
+		Name = "MobileContext",
+		ResetOnSpawn = true,
+		ZIndexBehavior = Enum.ZIndexBehavior.Global,
+		-- legacy behaviour: LocalScript (LocalScript, 16 lines)
+		[Children] = {
+			scope:New("Frame")({
+				Name = "ContextButtonFrame",
+				BackgroundColor3 = Color3.fromRGB(163, 162, 165),
+				BackgroundTransparency = 1,
+				BorderColor3 = Color3.fromRGB(27, 42, 53),
+				BorderSizePixel = 1,
+				Position = UDim2.fromScale(0.7, 0.5),
+				Size = UDim2.fromScale(0.3, 0.5),
+				[Children] = {
+					scope:New("ImageButton")({
+						Name = "Button1",
+						AnchorPoint = Vector2.new(1, 1),
+						AutoButtonColor = true,
+						BackgroundColor3 = Color3.fromRGB(163, 162, 165),
+						BackgroundTransparency = 1,
+						BorderColor3 = Color3.fromRGB(27, 42, 53),
+						BorderSizePixel = 1,
+						Image = "https://www.roblox.com/asset/?id=97166444",
+						Position = UDim2.fromScale(1, 1),
+						Size = UDim2.fromOffset(25, 25),
+						-- legacy behaviour: MobileContextDash (LocalScript, 32 lines)
+						[Children] = {
+							scope:New("ImageLabel")({
+								Name = "ActionIcon",
+								BackgroundColor3 = Color3.fromRGB(163, 162, 165),
+								BackgroundTransparency = 1,
+								BorderColor3 = Color3.fromRGB(27, 42, 53),
+								BorderSizePixel = 1,
+								Position = UDim2.fromScale(0.175, 0.175),
+								Size = UDim2.fromScale(0.65, 0.65),
+							}),
+							scope:New("TextLabel")({
+								Name = "ActionTitle",
+								BackgroundColor3 = Color3.fromRGB(163, 162, 165),
+								BackgroundTransparency = 1,
+								BorderColor3 = Color3.fromRGB(27, 42, 53),
+								BorderSizePixel = 1,
+								FontFace = Font.new("rbxasset://fonts/families/SourceSansPro.json", Enum.FontWeight.Bold, Enum.FontStyle.Normal),
+								Size = UDim2.fromScale(1, 1),
+								TextColor3 = Color3.fromRGB(255, 255, 255),
+								TextSize = 18,
+								TextStrokeTransparency = 0,
+								TextWrapped = true,
+							}),
+						},
+					}),
+					scope:New("ImageButton")({
+						Name = "Button2",
+						AnchorPoint = Vector2.new(1, 1),
+						AutoButtonColor = true,
+						BackgroundColor3 = Color3.fromRGB(163, 162, 165),
+						BackgroundTransparency = 1,
+						BorderColor3 = Color3.fromRGB(27, 42, 53),
+						BorderSizePixel = 1,
+						Image = "https://www.roblox.com/asset/?id=97166444",
+						Position = UDim2.new(1, -25, 1, 0),
+						Size = UDim2.fromOffset(25, 25),
+						-- legacy behaviour: MobileContextShave (LocalScript, 34 lines)
+						[Children] = {
+							scope:New("ImageLabel")({
+								Name = "ActionIcon",
+								BackgroundColor3 = Color3.fromRGB(163, 162, 165),
+								BackgroundTransparency = 1,
+								BorderColor3 = Color3.fromRGB(27, 42, 53),
+								BorderSizePixel = 1,
+								Position = UDim2.fromScale(0.175, 0.175),
+								Size = UDim2.fromScale(0.65, 0.65),
+							}),
+							scope:New("TextLabel")({
+								Name = "ActionTitle",
+								BackgroundColor3 = Color3.fromRGB(163, 162, 165),
+								BackgroundTransparency = 1,
+								BorderColor3 = Color3.fromRGB(27, 42, 53),
+								BorderSizePixel = 1,
+								FontFace = Font.new("rbxasset://fonts/families/SourceSansPro.json", Enum.FontWeight.Bold, Enum.FontStyle.Normal),
+								Size = UDim2.fromScale(1, 1),
+								TextColor3 = Color3.fromRGB(255, 255, 255),
+								TextSize = 18,
+								TextStrokeTransparency = 0,
+								TextWrapped = true,
+							}),
+						},
+					}),
+					scope:New("ImageButton")({
+						Name = "Button3",
+						AnchorPoint = Vector2.new(1, 1),
+						AutoButtonColor = true,
+						BackgroundColor3 = Color3.fromRGB(163, 162, 165),
+						BackgroundTransparency = 1,
+						BorderColor3 = Color3.fromRGB(27, 42, 53),
+						BorderSizePixel = 1,
+						Image = "https://www.roblox.com/asset/?id=97166444",
+						Position = UDim2.new(1, -50, 1, 0),
+						Size = UDim2.fromOffset(25, 25),
+						-- legacy behaviour: MobileContextHaki (LocalScript, 37 lines)
+						[Children] = {
+							scope:New("ImageLabel")({
+								Name = "ActionIcon",
+								BackgroundColor3 = Color3.fromRGB(163, 162, 165),
+								BackgroundTransparency = 1,
+								BorderColor3 = Color3.fromRGB(27, 42, 53),
+								BorderSizePixel = 1,
+								Position = UDim2.fromScale(0.175, 0.175),
+								Size = UDim2.fromScale(0.65, 0.65),
+							}),
+							scope:New("TextLabel")({
+								Name = "ActionTitle",
+								BackgroundColor3 = Color3.fromRGB(163, 162, 165),
+								BackgroundTransparency = 1,
+								BorderColor3 = Color3.fromRGB(27, 42, 53),
+								BorderSizePixel = 1,
+								FontFace = Font.new("rbxasset://fonts/families/SourceSansPro.json", Enum.FontWeight.Bold, Enum.FontStyle.Normal),
+								Size = UDim2.fromScale(1, 1),
+								TextColor3 = Color3.fromRGB(255, 255, 255),
+								TextSize = 18,
+								TextStrokeTransparency = 0,
+								TextWrapped = true,
+							}),
+						},
+					}),
+					scope:New("ImageButton")({
+						Name = "Button4",
+						AnchorPoint = Vector2.new(1, 1),
+						AutoButtonColor = true,
+						BackgroundColor3 = Color3.fromRGB(163, 162, 165),
+						BackgroundTransparency = 1,
+						BorderColor3 = Color3.fromRGB(27, 42, 53),
+						BorderSizePixel = 1,
+						Image = "https://www.roblox.com/asset/?id=97166444",
+						Position = UDim2.new(1, -75, 1, 0),
+						Size = UDim2.fromOffset(25, 25),
+						-- legacy behaviour: MobileContextObservation (LocalScript, 27 lines)
+						[Children] = {
+							scope:New("ImageLabel")({
+								Name = "ActionIcon",
+								BackgroundColor3 = Color3.fromRGB(163, 162, 165),
+								BackgroundTransparency = 1,
+								BorderColor3 = Color3.fromRGB(27, 42, 53),
+								BorderSizePixel = 1,
+								Position = UDim2.fromScale(0.175, 0.175),
+								Size = UDim2.fromScale(0.65, 0.65),
+							}),
+							scope:New("TextLabel")({
+								Name = "ActionTitle",
+								BackgroundColor3 = Color3.fromRGB(163, 162, 165),
+								BackgroundTransparency = 1,
+								BorderColor3 = Color3.fromRGB(27, 42, 53),
+								BorderSizePixel = 1,
+								FontFace = Font.new("rbxasset://fonts/families/SourceSansPro.json", Enum.FontWeight.Bold, Enum.FontStyle.Normal),
+								Size = UDim2.fromScale(1, 1),
+								TextColor3 = Color3.fromRGB(255, 255, 255),
+								TextSize = 18,
+								TextStrokeTransparency = 0,
+								TextWrapped = true,
+							}),
+						},
+					}),
+					scope:New("ImageButton")({
+						Name = "Button5",
+						AnchorPoint = Vector2.new(1, 1),
+						AutoButtonColor = true,
+						BackgroundColor3 = Color3.fromRGB(163, 162, 165),
+						BackgroundTransparency = 1,
+						BorderColor3 = Color3.fromRGB(27, 42, 53),
+						BorderSizePixel = 1,
+						Image = "https://www.roblox.com/asset/?id=97166444",
+						Position = UDim2.new(1, -100, 1, 0),
+						Size = UDim2.fromOffset(25, 25),
+						-- legacy behaviour: MobileContextSpFn (LocalScript, 34 lines)
+						[Children] = {
+							scope:New("ImageLabel")({
+								Name = "ActionIcon",
+								BackgroundColor3 = Color3.fromRGB(163, 162, 165),
+								BackgroundTransparency = 1,
+								BorderColor3 = Color3.fromRGB(27, 42, 53),
+								BorderSizePixel = 1,
+								Position = UDim2.fromScale(0.175, 0.175),
+								Size = UDim2.fromScale(0.65, 0.65),
+							}),
+							scope:New("TextLabel")({
+								Name = "ActionTitle",
+								BackgroundColor3 = Color3.fromRGB(163, 162, 165),
+								BackgroundTransparency = 1,
+								BorderColor3 = Color3.fromRGB(27, 42, 53),
+								BorderSizePixel = 1,
+								FontFace = Font.new("rbxasset://fonts/families/SourceSansPro.json", Enum.FontWeight.Bold, Enum.FontStyle.Normal),
+								Size = UDim2.fromScale(1, 1),
+								TextColor3 = Color3.fromRGB(255, 255, 255),
+								TextSize = 18,
+								TextStrokeTransparency = 0,
+								TextWrapped = true,
+							}),
+						},
+					}),
+					scope:New("ImageButton")({
+						Name = "Button6",
+						AnchorPoint = Vector2.new(1, 1),
+						AutoButtonColor = true,
+						BackgroundColor3 = Color3.fromRGB(163, 162, 165),
+						BackgroundTransparency = 1,
+						BorderColor3 = Color3.fromRGB(27, 42, 53),
+						BorderSizePixel = 1,
+						Image = "https://www.roblox.com/asset/?id=97166444",
+						Position = UDim2.new(1, -125, 1, 0),
+						Size = UDim2.fromOffset(25, 25),
+						-- legacy behaviour: MobileContextHao (LocalScript, 26 lines)
+						[Children] = {
+							scope:New("ImageLabel")({
+								Name = "ActionIcon",
+								BackgroundColor3 = Color3.fromRGB(163, 162, 165),
+								BackgroundTransparency = 1,
+								BorderColor3 = Color3.fromRGB(27, 42, 53),
+								BorderSizePixel = 1,
+								Position = UDim2.fromScale(0.175, 0.175),
+								Size = UDim2.fromScale(0.65, 0.65),
+							}),
+							scope:New("TextLabel")({
+								Name = "ActionTitle",
+								BackgroundColor3 = Color3.fromRGB(163, 162, 165),
+								BackgroundTransparency = 1,
+								BorderColor3 = Color3.fromRGB(27, 42, 53),
+								BorderSizePixel = 1,
+								FontFace = Font.new("rbxasset://fonts/families/SourceSansPro.json", Enum.FontWeight.Bold, Enum.FontStyle.Normal),
+								Size = UDim2.fromScale(1, 1),
+								TextColor3 = Color3.fromRGB(255, 255, 255),
+								TextSize = 18,
+								TextStrokeTransparency = 0,
+								TextWrapped = true,
+							}),
+						},
+					}),
+				},
+			}),
+			scope:New("Frame")({
+				Name = "ContextActions1",
+				AnchorPoint = Vector2.new(1, 0),
+				BackgroundColor3 = Color3.fromRGB(163, 162, 165),
+				BackgroundTransparency = 1,
+				BorderColor3 = Color3.fromRGB(27, 42, 53),
+				BorderSizePixel = 1,
+				Position = UDim2.fromScale(1, 0.1),
+				Size = UDim2.fromScale(0.3, 0.5),
+				Visible = false,
+				[Children] = {
+					scope:New("UIListLayout")({
+						HorizontalAlignment = Enum.HorizontalAlignment.Right,
+						SortOrder = Enum.SortOrder.LayoutOrder,
+					}),
+				},
+			}),
+			scope:New("Frame")({
+				Name = "ContextActions2",
+				AnchorPoint = Vector2.new(1, 0),
+				BackgroundColor3 = Color3.fromRGB(163, 162, 165),
+				BackgroundTransparency = 1,
+				BorderColor3 = Color3.fromRGB(27, 42, 53),
+				BorderSizePixel = 1,
+				Position = UDim2.new(1, -40, 0.1, 0),
+				Size = UDim2.fromScale(0.3, 0.5),
+				Visible = false,
+				[Children] = {
+					scope:New("UIListLayout")({
+						HorizontalAlignment = Enum.HorizontalAlignment.Right,
+						SortOrder = Enum.SortOrder.LayoutOrder,
+					}),
+				},
+			}),
+			scope:New("ImageButton")({
+				Name = "Button",
+				AutoButtonColor = true,
+				BackgroundColor3 = Color3.fromRGB(163, 162, 165),
+				BackgroundTransparency = 1,
+				BorderColor3 = Color3.fromRGB(27, 42, 53),
+				BorderSizePixel = 1,
+				Image = "https://www.roblox.com/asset/?id=97166444",
+				Position = UDim2.fromScale(1, 1),
+				Size = UDim2.fromOffset(40, 40),
+				Visible = false,
+			}),
+		},
+	}) :: any
+end

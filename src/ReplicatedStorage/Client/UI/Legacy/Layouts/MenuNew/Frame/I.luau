@@ -1,0 +1,43 @@
+--!strict
+--[[
+	GENERATED v2 from the legacy place (StarterGui.MenuNew > Frame > I): static structure only.
+	Lines marked "legacy behaviour" name the LocalScript that used to drive that element;
+	its logic still has to be rewritten as state bound to this tree.
+]]
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+
+local Fusion = require(ReplicatedStorage.Shared.Packages.Fusion)
+
+local Children = Fusion.Children
+
+type Scope = Fusion.Scope<typeof(Fusion)>
+
+return function(scope: Scope): TextButton
+	return scope:New("TextButton")({
+		Name = "I",
+		AutoButtonColor = true,
+		BackgroundTransparency = 0.85,
+		BorderColor3 = Color3.fromRGB(27, 42, 53),
+		BorderSizePixel = 1,
+		Position = UDim2.fromScale(0.05, -0.72),
+		Size = UDim2.fromScale(0.9, 0.15),
+		Text = "Crews",
+		TextColor3 = Color3.fromRGB(255, 255, 255),
+		TextScaled = true,
+		TextStrokeTransparency = 0.6,
+		TextWrapped = true,
+		ZIndex = 2,
+		[Children] = {
+			scope:New("ImageLabel")({
+				Name = "ImageLabels",
+				AnchorPoint = Vector2.new(0.5, 0.5),
+				BackgroundTransparency = 1,
+				BorderColor3 = Color3.fromRGB(27, 42, 53),
+				BorderSizePixel = 1,
+				Image = "rbxassetid://1012758197",
+				Position = UDim2.fromScale(0.5, 0.5),
+				Size = UDim2.fromScale(1, 1),
+			}),
+		},
+	}) :: any
+end

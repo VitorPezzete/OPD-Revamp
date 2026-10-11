@@ -1,0 +1,53 @@
+{
+  "name": "OPD-Revamp",
+  "servePort": 34900,
+  "syncbackRules": {
+    "ignoreProperties": {
+      "Instance": ["SerializedOverrides"],
+      "Folder": ["IconTint"]
+    }
+  },
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedFirst": {
+      "$path": "src/ReplicatedFirst",
+      "$ignoreUnknownInstances": true
+    },
+    "ReplicatedStorage": {
+      "Client": {
+        "$path": "src/ReplicatedStorage/Client"
+      },
+      "Shared": {
+        "$path": "src/ReplicatedStorage/Shared"
+      }
+    },
+    "ServerScriptService": {
+      "$path": "src/ServerScriptService",
+      "$ignoreUnknownInstances": true
+    },
+    "ServerStorage": {
+      "Server": {
+        "$path": "src/ServerStorage/Server"
+      },
+      "_Authoring": {
+        "$className": "Folder",
+        "DevSmoke": {
+          "$path": "src/ServerStorage/_Authoring/DevSmoke.luau"
+        },
+        "DevSync": {
+          "$path": "src/ServerStorage/_Authoring/DevSync.luau"
+        }
+      }
+    },
+    "StarterPlayer": {
+      "StarterPlayerScripts": {
+        "$path": "src/StarterPlayer/StarterPlayerScripts",
+        "$ignoreUnknownInstances": true
+      },
+      "StarterCharacterScripts": {
+        "$path": "src/StarterPlayer/StarterCharacterScripts",
+        "$ignoreUnknownInstances": true
+      }
+    }
+  }
+}
